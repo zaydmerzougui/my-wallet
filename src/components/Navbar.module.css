@@ -1,0 +1,31 @@
+.nav {
+    width:100%;
+    background: #effaf0;
+    padding: 20px 10px;
+    box-sizing: border-box;
+
+}
+
+.nav ul {
+    display: flex;
+    margin: 0 auto;
+    max-width: 960px;
+    align-items: center;
+    list-style: none;
+}
+
+.title {
+    margin-right: auto;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 1.2em;
+}
+
+.nav button, .nav a {
+    margin-left: 16px;
+}
+
+.nav a {
+    color: #333;
+    text-decoration: none;
+}
